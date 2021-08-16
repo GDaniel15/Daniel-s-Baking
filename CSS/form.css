@@ -1,0 +1,16 @@
+form {
+    min-width: 40%;
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: 2px dotted black;
+}
+p {
+    font-size: 20px;
+    text-align: left;
+}
+#exampleFormControlSelect1 {
+    width: 30%;
+    max-width: 40%;
+    float: left;
+}

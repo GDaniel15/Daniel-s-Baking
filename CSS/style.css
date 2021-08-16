@@ -1,0 +1,117 @@
+.main{
+    text-align: center;
+    border: whitesmoke solid;
+    border-radius: 15px;
+    background: antiquewhite;
+    min-width: 25%;
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    align-content: center;
+}
+#main p, #main h2 {
+    text-align: center;
+}
+#main h2 {
+    padding: 10px;
+    border: red dotted 2px;
+    margin: auto;
+    width: 50%;
+    background-color: beige;
+}
+.title  {
+    background: linear-gradient(to top right, #ff99b3, #ff99ff, #b399ff);
+    margin: auto;
+    padding: 20px;
+}
+
+body {
+    margin: auto;
+    height: auto;
+    background: linear-gradient(to bottom right, #ff99b3, #ff99ff, #b399ff);
+}
+
+footer {
+    opacity: 50%;
+    color: gray;
+}
+.new {
+    position: sticky;
+    background-color: rgb(228, 232, 215);
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    text-align: center;
+    z-index: +1;
+}
+.new li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 60px;
+    text-align: center;
+}
+.new li a{
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.picture_index {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    padding: 0;
+    text-align: center;
+    z-index: +1;
+}
+
+.picture_index ol {
+    margin: auto;
+    width: 100%;
+}
+.picture_index li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.picture_index img, .Recipie img {
+    object-fit: cover;
+    width:500px;
+    height:300px;
+    padding: 0;
+    margin-top: 20px;
+    border: 5px dotted rgb(228, 232, 215);
+    border-radius: 25px;
+}
+.picture_index li p{
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+.picture_index li i {
+    color: black;
+}
+.Ingrediants {
+    min-width: 35%;
+    max-width: 40%;
+    margin: auto;
+
+}
+.Ingrediants h4 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+.Ingrediants ul, .Ingrediants ol{
+    text-align: left;
+}
